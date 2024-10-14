@@ -1,0 +1,118 @@
+/* Reset základního marginu a paddingu */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+/* Kontejner aplikace */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Nadpisy */
+h1, h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Seznam tlačítek tříd */
+.class-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Výpis žáků */
+.student-list {
+  margin-bottom: 30px;
+}
+
+.student-list div {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.student-list div:hover {
+  background-color: #f9f9f9;
+}
+
+/* Sekce známek */
+.grades-section {
+  margin-top: 20px;
+}
+
+.grade-item {
+  background-color: #e8f5e9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grade-item p {
+  margin: 0;
+  color: #333;
+}
+
+/* Tlačítko smazat */
+.grade-item button {
+  background-color: #f44336;
+  margin-left: 10px;
+}
+
+.grade-item button:hover {
+  background-color: #d32f2f;
+}
+
+/* Vstupy pro nového žáka a známku */
+input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+/* Tlačítko přidat */
+.add-button {
+  width: 100%;
+  background-color: #2196f3;
+}
+
+.add-button:hover {
+  background-color: #1976d2;
+}
